@@ -6,7 +6,7 @@ function _init(){
 
 _init();
   
-return inir:_init;
+return {inir:_init};
 
 }());
 
