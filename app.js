@@ -1,12 +1,9 @@
-var app = (function(){
-
-function _init(){
-	console.log(1);
-}
-
-_init();
-  
-return {inir:_init};
-
-}());
-
+(function(){
+  // (function(){
+  // 	console.log("ok");
+  // }).call(this);
+  var test = function(){
+  	console.log("ok");
+  }
+  return test();
+}).call(this);
