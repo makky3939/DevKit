@@ -1,9 +1,9 @@
 (function(){
   // (function(){
-  // 	console.log("ok");
+  //   console.log("ok");
   // }).call(this);
   var test = function(){
-  	console.log("ok");
+    console.log("ok");
   }
   return test();
 }).call(this);
